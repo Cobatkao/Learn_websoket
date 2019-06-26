@@ -10,10 +10,13 @@ console.log('WebSocket Server is listenning on port ' + PORT)
 
 io.on('connection', function (socket) {
   console.log("New connection Established...")
+  
   count++
   socket.username = 'USER ' + count
+
   // 广播信息
   io.emit('enter', `${socket.username} comes in...`)
+
   // 响应事件
   socket.on('message', function(data) {
     console.log('data', data)
