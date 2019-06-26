@@ -16,3 +16,5 @@
 - `emit('event_name', {hello: 'world'})`：可直接发送对象，不用像demo1中自己构造对象，序列化；
 
 - `on('any_event')`：可以自定义监听任何事件类型；
+
+![Screen Shot 2019-06-26 at 5.23.15 PM.png](https://i.loli.net/2019/06/26/5d1339a02fc0976736.png)
