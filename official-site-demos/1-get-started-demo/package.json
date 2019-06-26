@@ -1,0 +1,23 @@
+{
+  "name": "Socket_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cobatkao/Learn_websoket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cobatkao/Learn_websoket/issues"
+  },
+  "homepage": "https://github.com/Cobatkao/Learn_websoket#readme",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}

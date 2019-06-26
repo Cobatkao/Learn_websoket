@@ -34,7 +34,6 @@
 
         // 客户端监听服务端发射的事件
         socket.on('chat-msg', function(data) {
-          console.log(1);
           $('#messages').append($('<li>').text(data));
           window.scrollTo({ 
             top: 0, 
